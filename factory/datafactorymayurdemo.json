@@ -1,0 +1,15 @@
+{
+	"name": "datafactorymayurdemo",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "ff209517-82ce-4d74-bad4-93404b8ba959",
+		"tenantId": "ac71ee11-6eea-4a70-b7d9-9739897daf3c"
+	}
+}
