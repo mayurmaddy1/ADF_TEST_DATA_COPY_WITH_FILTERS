@@ -1,0 +1,6 @@
+{
+	"name": "integrationRuntime1selfhostedmayurIR",
+	"properties": {
+		"type": "SelfHosted"
+	}
+}

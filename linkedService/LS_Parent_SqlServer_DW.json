@@ -1,17 +1,17 @@
 {
-	"name": "SqlServer1",
+	"name": "LS_Parent_SqlServer_DW",
 	"type": "Microsoft.DataFactory/factories/linkedservices",
 	"properties": {
 		"annotations": [],
 		"type": "SqlServer",
 		"typeProperties": {
 			"server": "DESKTOP-LP6QDO1\\SQLEXPRESS",
-			"database": "demodb",
+			"database": "RetailDW_Dev",
 			"encrypt": "mandatory",
 			"trustServerCertificate": true,
 			"authenticationType": "SQL",
 			"userName": "sqlazureusername",
-			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiJhMzFhMTdiMy1mYTg4LTRiMGYtODVhMy0wZTVmNzFmOWRiNDgiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiIzYzdlYjljNi01MjZjLTRhNmUtYTNhYS02ZmU4NDE4OTFiYzQiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
 		},
 		"connectVia": {
 			"referenceName": "integrationRuntime1selfhostedmayurnew",

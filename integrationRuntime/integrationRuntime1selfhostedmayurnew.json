@@ -1,0 +1,9 @@
+{
+	"name": "integrationRuntime1selfhostedmayurnew",
+	"properties": {
+		"type": "SelfHosted",
+		"typeProperties": {
+			"selfContainedInteractiveAuthoringEnabled": true
+		}
+	}
+}
