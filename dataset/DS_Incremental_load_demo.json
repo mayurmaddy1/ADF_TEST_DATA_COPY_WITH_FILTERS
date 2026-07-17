@@ -1,0 +1,16 @@
+{
+	"name": "DS_Incremental_load_demo",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "SqlServer2_INCREMENTAL",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "orders"
+		}
+	}
+}
