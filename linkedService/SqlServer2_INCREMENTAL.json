@@ -1,0 +1,21 @@
+{
+	"name": "SqlServer2_INCREMENTAL",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"server": "DESKTOP-LP6QDO1\\SQLEXPRESS",
+			"database": "RetailDW_Dev",
+			"encrypt": "mandatory",
+			"trustServerCertificate": true,
+			"authenticationType": "SQL",
+			"userName": "sqlazureusername",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiIzNmQyY2U5ZC1lZjNmLTRlZGYtYTIzMC1lYWM4YmRhMGE2MDEiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "integrationRuntime1selfhostedmayurnew",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
